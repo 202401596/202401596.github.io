@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MovingMoa</title>
     <style>
         div {
-            background-color: burlywood;
-            width: 900px;
+            background-color: red;
+            width: 650px;
         }
 
         nav {
-            background-color: blanchedalmond;
+            background-color: rgb(234, 139, 139);
+            width: 650px;
         }
 
-        section {
-            background-color: beige;
-        }
+       
 
         aside {
             width: 15%; height: 70%; float: right;
+            width: 650px;
         }
     </style>
 </head>
@@ -29,51 +29,35 @@
     </aside>
 
     <header>
-  <div><h1> 반갑습니다! 무빙리스트 오신 것을 환영합니다!</h1> 
-  <p> 영화를 보고 감상평 및 추천목록을 공유하는 곳입니다. </p> </div>
+  <div><h1> 무비모아 </h1> 
+  <p> 영화의 감상평 및 추천목록을 공유하는 곳입니다!</p> </div>
 </header>
  
-<nav><h1> MOVING LIST</h1>
+<nav><h1> Table of content</h1>
   <p>
-    <ul>
-        <li><a href="#">홈</a></li>
-        <li><a href="#">로그인</a></li>
-        <li><a href="#">내공간</a></li>
-        <li><a href="#">영화제목검색</a></li>
-        <li><a href="#">영화감독검색</a></li>
-        <li><a href="#">관람평작성</a></li>
-    </ul>
+    <ol>
+        <li><a href="home.html">홈</a></li>
+        <ul>
+            <li>내공간</li>
+            <li>인기영화</li>
+            <li>현재 상영작</li>
+        </ul>
+        <li><a href="review.html">영화 리뷰 검색</a></li>
+        <ul>
+            <li>감독별 리뷰 모음</li>
+            <li>영화별 리뷰 모음</li>
+        </ul>
+    
+        <li><a href="communitie.html">커뮤니티</a></li>
+        <ul>
+            <li>영화 토론 게시판</li>
+            <li>한 줄 감상평</li>
+        </ul>
+
+    </ol>
   </p>
 </nav>
 
- <section>
-    <h2>내 공간</h2>
-<p> 보고 싶은 영화와 다 본 영화를 내 공간에 담아주고 관람평을 확인 및 관리해보세요.</p>
-<ul>
-    <li><a href="#">보고 싶은 영화</a></li>
-    <li><a href="#"> 본 영화 </a></li>
-</ul>
-    
- </section>
-
-<section>
-    <h2> 영화 제목 검색</h2> 
-    <p> 영화에 대한 다양한 사람들의 관람평을 확인해보세요. </p>
-     <input type="text" placeholder="영화 제목 검색" id="movie search">
-     <button id="search button">검색</button>
-
-     <h2> 영화 감독 검색</h2> 
-     <p>원하는 감독의 작품들을 확인해보세요. </p>
-     <input type="text" placeholder="영화 감독 검색" id="movie director search">
-     <button id="search button">검색</button>
-</section>
-
-<section>
-<h2> 관람평 작성</h2>
-<p> 영화관람 후 소감 및 평가를 작성해주세요.</p>
-<textarea placeholder="소감을 작성해주세요..." rows="5"></textarea>
-<button>제출</button>
-</section>
 
 </body>
 </html>
